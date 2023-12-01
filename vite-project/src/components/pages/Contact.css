@@ -1,9 +1,9 @@
 form {
-  background: white;
+  background: gainsboro;
   color: black;
   display: flex;
   flex-direction: column;
-  margin: 5rem;
+  margin: 5rem auto;
   padding: 2rem 4rem;
   width: 100%;
   max-width: 50rem;
@@ -11,7 +11,8 @@ form {
 }
 
 form h3 {
-  color: red;
+  text-align: center;
+  color: #424242;
   font-weight: 750;
   margin-bottom: 0.5rem;
 }
@@ -31,7 +32,7 @@ form textarea {
 
 form button {
   padding: 1rem;
-  background: orange;
+  background: darkslategray;
   color: white;
   font-size: 18px;
   border: 0;

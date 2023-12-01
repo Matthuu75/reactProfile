@@ -1,12 +1,12 @@
 .active {
-  background-color: #1d4ed8;
+  background-color: #242424;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: aqua;
+  background-color: darkslategray;
   position: sticky;
   top: 0;
 }
@@ -16,7 +16,7 @@ nav .title {
   margin: 1rem;
   font-weight: bold;
   text-decoration: none;
-  color: black;
+  color: gainsboro;
 }
 
 nav ul {
@@ -31,15 +31,15 @@ nav ul li {
 nav ul li a {
   display: block;
   text-decoration: none;
-  color: black;
+  color: gainsboro;
   padding: 0.5rem;
   margin: 0 0.5rem;
   border-radius: 0.5rem;
 }
 
 nav ul li a:not(.active):hover {
-  background-color: #172554;
-  color: white;
+  background-color: gainsboro;
+  color: darkslategray;
 }
 
 nav .menu {
