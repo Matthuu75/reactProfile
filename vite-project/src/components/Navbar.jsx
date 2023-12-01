@@ -4,17 +4,19 @@ import { Link, NavLink } from "react-router-dom";
 import "./navbar.css";
 
 export const Navbar = () => {
-
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <nav>
       <Link to="/" className="title">
-        Marcus Matthews
+        Home
       </Link>
-      <div className="menu" onClick={() => {
-        setMenuOpen(!menuOpen);
-      }}>
+      <div
+        className="menu"
+        onClick={() => {
+          setMenuOpen(!menuOpen);
+        }}
+      >
         <span></span>
         <span></span>
         <span></span>

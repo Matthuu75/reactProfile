@@ -1,25 +1,34 @@
 import React from "react";
+import "./about.css";
 
 export const About = () => {
-    return (
-        <div>
-           <header>
-                <h1>Marcus Matthews</h1>
-                
+  return (
+    <div>
+      <header>
+        <h1>Marcus Matthews</h1>
+              <div>
+                  <img src="./src/assets/Headshot.jpg" className= "headshot" alt="" />
+              </div>
         <h2>Web Developer</h2>
-    </header>
+      </header>
 
-    <section>
+      <section>
         <p>
-            Hello! I'm John Doe, a passionate web developer based in [Your City]. I specialize in front-end and back-end development, creating responsive and user-friendly websites.
+          Hello! I'm Marcus Matthews, a passionate web developer based in the
+          Greater Orlando area. I specialize in front-end and back-end
+          development, creating responsive and user-friendly websites.
         </p>
         <p>
-            With a strong foundation in HTML, CSS, and JavaScript, I love turning ideas into reality. My goal is to build web applications that not only look great but also provide a seamless user experience.
+          With a strong foundation in HTML, CSS, and JavaScript, I love turning
+          ideas into reality. My goal is to build web applications that not only
+          look great but also provide a seamless user experience.
         </p>
         <p>
-            Outside of coding, I enjoy exploring new technologies, attending tech meetups, and staying up-to-date with the latest industry trends.
+          Outside of coding, I enjoy exploring new technologies, spending time
+          with my family, and staying up-to-date with the latest industry
+          trends.
         </p>
-    </section>
-      </div>
+      </section>
+    </div>
   );
 };

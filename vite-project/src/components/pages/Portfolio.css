@@ -1,0 +1,35 @@
+/* Portfolio.css */
+
+#work {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 30px;
+  color: #333; /* Adjust color as needed */
+}
+
+.mywork {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.mywork a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #3498db; /* Adjust background color as needed */
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  width: 200px;
+  transition: background-color 0.3s ease;
+}
+
+.mywork a:hover {
+  background-color: #2075c1; /* Adjust hover background color as needed */
+}
+
+.mywork h3 {
+  font-size: 1.5em;
+  margin: 0;
+}
