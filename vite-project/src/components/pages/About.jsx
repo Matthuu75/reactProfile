@@ -3,7 +3,7 @@ import "./about.css";
 
 export const About = () => {
   return (
-    <div>
+    <div className="container">
       <header>
         <h1>Marcus Matthews</h1>
               <div>
@@ -12,7 +12,7 @@ export const About = () => {
         <h2>Web Developer</h2>
       </header>
 
-      <section>
+      <div className="bio">
         <p>
           Hello! I'm Marcus Matthews, a passionate web developer based in the
           Greater Orlando area. I specialize in front-end and back-end
@@ -25,10 +25,10 @@ export const About = () => {
         </p>
         <p>
           Outside of coding, I enjoy exploring new technologies, spending time
-          with my family, and staying up-to-date with the latest industry
+          with my family and my two dogs, and staying up-to-date with the latest industry
           trends.
         </p>
-      </section>
+      </div>
     </div>
   );
 };

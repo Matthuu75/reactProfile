@@ -31,7 +31,7 @@ function App() {
           </a>
           <a href="https://www.linkedin.com/in/marcus-matthews-2655a5119/">
             <img
-              src="./src/assets/linkd in.png"
+              src="./src/assets/linkedin.png"
               className="linkedInLogo"
               alt=""
             />
