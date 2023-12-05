@@ -1,6 +1,7 @@
 /* Portfolio.css */
 
 #work {
+  padding-top: 1.5rem;
   text-align: center;
   font-size: 2em;
   margin-bottom: 30px;
@@ -17,19 +18,65 @@
 .mywork a {
   text-decoration: none;
   color: #fff;
-  background-color: #3498db; /* Adjust background color as needed */
+  background-color: maroon; /* Adjust background color as needed */
   border-radius: 8px;
   padding: 20px;
   margin: 10px;
-  width: 200px;
-  transition: background-color 0.3s ease;
+  width: 25rem;
+  height: 20rem;
+  transition: background-color 0.5s ease;
 }
 
 .mywork a:hover {
-  background-color: #2075c1; /* Adjust hover background color as needed */
+  background-color: red; /* Adjust hover background color as needed */
 }
 
 .mywork h3 {
-  font-size: 1.5em;
+  text-align: center;
+  font-size: 3rem;
   margin: 0;
+  color: white;
+  background-color: darkslategrey;
+  border: .5rem solid maroon;
+  border-radius: 5rem;
+}
+
+.horiseon {
+  background-image: url(./src/assets/Horiseon.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+}
+
+.horiseon:hover {
+  filter: grayscale(0%);
+  transition: filter 0.75s ease;
+}
+
+
+.project1 {
+  background-image: url(./src/assets/moody-main.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+}
+
+.project1:hover {
+  filter: grayscale(0%);
+  transition: filter 0.75s ease;
+}
+
+.project2 {
+  background-image: url(./src/assets/Project2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+}
+
+.project2:hover {
+  filter: grayscale(0%);
+  transition: filter 0.75s ease;
 }

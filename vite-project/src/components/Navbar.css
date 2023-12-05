@@ -1,5 +1,5 @@
 .active {
-  background-color: #242424;
+  background-color: maroon;
 }
 
 nav {
@@ -38,8 +38,9 @@ nav ul li a {
 }
 
 nav ul li a:not(.active):hover {
-  background-color: gainsboro;
-  color: darkslategray;
+  background-color: red;
+  color: white;
+  transition: background-color 0.5s ease;
 }
 
 nav .menu {
