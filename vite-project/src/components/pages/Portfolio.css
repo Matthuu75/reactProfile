@@ -76,3 +76,21 @@
   filter: grayscale(0%);
   transition: filter 0.75s ease;
 }
+
+.github-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.github-links a {
+  text-decoration: none;
+  color: #424242;
+  font-size: 1.2em;
+  transition: color 0.5s ease;
+}
+
+.github-links a:hover {
+  color: red;
+}

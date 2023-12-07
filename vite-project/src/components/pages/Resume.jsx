@@ -4,31 +4,28 @@ import "./Resume.css";
 
 export const Resume = () => {
   const downloadResume = () => {
-    // Replace the following with your actual resume data
 
     // Create a string from the resume data
     const resumeString = resumeData.join("\n");
 
-    // Create a Blob containing the resume data
     const blob = new Blob([resumeString], { type: "text/plain" });
 
     // Create a download link
     const downloadLink = document.createElement("a");
     downloadLink.href = URL.createObjectURL(blob);
-    downloadLink.download = "your_resume.txt";
+    downloadLink.download = "Marcus Matthews Resume.txt";
 
     document.body.appendChild(downloadLink);
 
     downloadLink.click();
-
-    // Remove the link from the document
-    document.body.removeChild(downloadLink);
   };
 
   return (
     <div className="resume-main">
       <h1 className="resume-title">Resume</h1>
-      <button className="resume-button" onClick={downloadResume}>Download Resume</button>
+      <button className="resume-button" onClick={downloadResume}>
+        Download Resume
+      </button>
       <div className="resume-body">
         <section>
           <h2 className="resume-skills">Skills</h2>

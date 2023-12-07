@@ -28,6 +28,18 @@ export const Portfolio = () => {
           </div>
         </a>
       </div>
+
+      <div className="github-links">
+        <a href="https://github.com/matthuu75/Horiseon-Marketing-Strategies">
+          GitHub - Horiseon
+        </a>
+        <a href="https://github.com/madeleinea42/moody">
+          GitHub - Project 1
+        </a>
+        <a href="https://github.com/your-username/your-project2-repo">
+          GitHub - Project 2
+        </a>
+      </div>
     </div>
   );
 };
