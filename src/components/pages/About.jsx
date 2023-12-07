@@ -7,7 +7,7 @@ export const About = () => {
       <header>
         <h1>Marcus Matthews</h1>
               <div>
-          <img src={src/assets/Headshot.jpg} className= "headshot" alt="Headshot" />
+                  <img src="./src/assets/Headshot.jpg" className= "headshot" alt="Headshot" />
               </div>
         <h2>Web Developer</h2>
       </header>
