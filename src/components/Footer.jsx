@@ -14,7 +14,7 @@ export const Footer = () => {
         </a>
         <a href="https://www.linkedin.com/in/marcus-matthews-2655a5119/">
           <img
-            src="https://drive.google.com/file/d/1WWrODSnvNTu9ASoWBo1NPM5cZjuUfhxw/view?usp=drive_link"
+            src="https://drive.google.com/uc?export=view&id=1WWrODSnvNTu9ASoWBo1NPM5cZjuUfhxw"
             className="linkedInLogo"
             alt=""
           />
