@@ -34,7 +34,7 @@ export const Resume = () => {
               Proficient in MERN (MongoDB, Express.js, React, Node.js) stack
               development
             </li>
-            <li>Front-end: HTML5, CSS3, JavaScript (ES6+), React, Redux</li>
+            <li>Front-end: HTML, CSS, JavaScript (ES6+), React, Redux</li>
             <li>Back-end: Node.js, Express.js, MongoDB</li>
             <li>RESTful API design and implementation</li>
             <li>Responsive web design with Bootstrap and CSS frameworks</li>
