@@ -1,0 +1,39 @@
+footer {
+  margin-top: auto;
+  max-height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  background-color: darkslategray;
+  text-align: center;
+  width: 100%;
+  border-top: maroon solid 0.25rem;
+}
+
+footer img {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  height: 4rem;
+  margin: 0 0.5rem;
+  align-items: center;
+}
+
+footer a:hover {
+  filter: invert(85%); 
+  transition: filter 0.75s ease;
+}
+
+.githubLogo {
+  width: 6rem;
+  height: auto;
+  margin: 0 0.5rem;
+}
+
+.linkedInLogo {
+    width: 3rem;
+  height: auto;
+  margin: 0 0.5rem;
+}

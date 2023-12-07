@@ -1,0 +1,49 @@
+.resume-main {
+  max-width: 800px;
+  margin: 5rem auto;
+}
+
+.resume-title {
+  color: #424242;
+  text-align: center;
+}
+
+.resume-button {
+  display: block;
+  margin: 1.5rem auto;
+  padding: 10px 20px;
+  background-color: maroon;
+  color: gainsboro;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.resume-button:hover {
+  background-color: red;
+  transition: background-color 0.5s ease;
+  color: white;
+}
+
+.resume-body {
+  margin-top: 1.5rem;
+}
+
+.resume-skills {
+  color: #424242;
+  border-bottom: 0.25rem solid darkslategrey;
+  padding-bottom: 5px;
+}
+
+.resume-ul {
+    margin: 1rem;
+  list-style: none;
+  padding: 0;
+}
+
+.resume-ul li {
+  margin-bottom: 10px;
+  color: gainsboro;
+}
+

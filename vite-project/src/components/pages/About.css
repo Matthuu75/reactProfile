@@ -14,7 +14,7 @@ header {
   margin-bottom: 20px;
 }
 
-h1 {
+.container h1 {
   margin-top: 4.5rem;
   color: gainsboro;
   font-size: 2.5em;
@@ -29,9 +29,14 @@ h1 {
   margin-bottom: 10px;
 }
 
-h2 {
+.container h2 {
   color: #424242;
   font-size: 1.5em;
+}
+
+.container p {
+  color: gainsboro;
+  font-size: 17.5px;
 }
 
 .bio {

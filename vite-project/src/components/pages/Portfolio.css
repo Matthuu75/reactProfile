@@ -5,7 +5,7 @@
   text-align: center;
   font-size: 2em;
   margin-bottom: 30px;
-  color: #333; /* Adjust color as needed */
+  color: #424242;
 }
 
 .mywork {
@@ -17,8 +17,8 @@
 
 .mywork a {
   text-decoration: none;
-  color: #fff;
-  background-color: maroon; /* Adjust background color as needed */
+  color: white;
+  background-color: maroon;
   border-radius: 8px;
   padding: 20px;
   margin: 10px;
@@ -27,15 +27,11 @@
   transition: background-color 0.5s ease;
 }
 
-.mywork a:hover {
-  background-color: red; /* Adjust hover background color as needed */
-}
-
 .mywork h3 {
   text-align: center;
   font-size: 3rem;
   margin: 0;
-  color: white;
+  color: gainsboro;
   background-color: darkslategrey;
   border: .5rem solid maroon;
   border-radius: 5rem;
@@ -66,10 +62,6 @@
 .project1:hover {
   filter: grayscale(0%);
   transition: filter 0.75s ease;
-}
-
-.githubRepoMoody {
-  
 }
 
 .project2 {

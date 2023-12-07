@@ -9,10 +9,11 @@ nav {
   background-color: darkslategray;
   position: sticky;
   top: 0;
+  border-bottom: maroon solid 0.25rem;
 }
 
 nav .title {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   margin: 1rem;
   font-weight: bold;
   text-decoration: none;
@@ -57,7 +58,7 @@ nav .menu {
 nav .menu span {
   width: 100%;
   height: 0.4rem;
-  background-color: white;
+  background-color: gainsboro;
   border-radius: 0.25rem;
 }
 

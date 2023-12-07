@@ -3,6 +3,7 @@ import "./App.css";
 import { Navbar } from "./components/navbar";
 import { Route, Routes } from "react-router-dom";
 import { Home } from "./components/pages/Home";
+import { Footer } from "./components/Footer";
 
 import { About, Contact, Portfolio, Resume } from "./components/pages/index";
 
@@ -18,27 +19,7 @@ function App() {
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/resume" element={<Resume />} />
         </Routes>
-      </div>
-
-      
-
-      <div>
-        <footer id="footer">
-          <a href="https://github.com/Matthuu75">
-            <img
-              src="./src/assets/GitHub-logo.png"
-              className="githubLogo"
-              alt=""
-            />
-          </a>
-          <a href="https://www.linkedin.com/in/marcus-matthews-2655a5119/">
-            <img
-              src="./src/assets/linkedin.png"
-              className="linkedInLogo"
-              alt=""
-            />
-          </a>
-        </footer>
+        <Footer />
       </div>
     </>
   );
