@@ -56,6 +56,7 @@ export const Contact = () => {
         placeholder="Write me a message!"
         value={message}
         onChange={(e) => setMessage(e.target.value)}
+        required
       ></textarea>
       <button type="submit">Submit</button>
     </form>
