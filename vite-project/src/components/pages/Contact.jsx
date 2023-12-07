@@ -8,7 +8,7 @@ export const Contact = () => {
   const [validationMessage, setValidationMessage] = useState("");
 
   const emailValidate = () => {
-    const regEx = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    const regEx = /^[^ ]+@[^ ]+\.[^ ]{2,}$/;
 
     if (regEx.test(email)) {
       setValidationMessage("Email is valid");

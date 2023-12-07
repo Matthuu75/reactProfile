@@ -41,6 +41,11 @@ footer img {
   align-items: center;
 }
 
+footer a:hover {
+  filter: invert(100%);
+  transition: filter 0.95s ease;
+}
+
 .githubLogo {
   width: 9rem;
   height: auto;

@@ -68,6 +68,10 @@
   transition: filter 0.75s ease;
 }
 
+.githubRepoMoody {
+  
+}
+
 .project2 {
   background-image: url(./src/assets/Project2.png);
   background-size: cover;

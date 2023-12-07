@@ -1,0 +1,39 @@
+.headerPic {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: .5rem;
+  margin-right: auto;
+  margin-left: auto;
+  max-height: 40rem;
+  max-width: auto;
+  width: auto;
+  height: auto;
+  border-radius: 15rem;
+  filter: blur(0.5rem);
+}
+.headerPic2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: .5rem;
+  margin-right: auto;
+  margin-left: auto;
+  max-height: 27rem;
+  max-width: auto;
+  width: auto;
+  height: auto;
+  border: 0.5rem;
+  border-radius: 15rem;
+    border: 1rem solid black
+}
+
+.headerPic {
+  z-index: 1;
+}
+
+.headerPic2 {
+  z-index: 2;
+}
