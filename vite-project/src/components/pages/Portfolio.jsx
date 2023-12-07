@@ -1,5 +1,5 @@
 import React from "react";
-import "./Portfolio.css"; // Add the correct path to your CSS file
+import "./Portfolio.css";
 
 export const Portfolio = () => {
   return (
