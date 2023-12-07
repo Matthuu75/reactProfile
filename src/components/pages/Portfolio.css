@@ -31,12 +31,12 @@
   margin: 0;
   color: gainsboro;
   background-color: darkslategrey;
-  border: .5rem solid maroon;
+  border: 0.5rem solid maroon;
   border-radius: 5rem;
 }
 
 .horiseon {
-  background-image: url(./src/assets/Horiseon.png);
+  background-image: url(https://drive.google.com/uc?export=view&id=1puId1NIM5dGajINrMk5rgutRofPOFWvi);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -48,9 +48,8 @@
   transition: filter 0.75s ease;
 }
 
-
 .project1 {
-  background-image: url(./src/assets/moody-main.png);
+  background-image: url(https://drive.google.com/uc?export=view&id=1sTdn9i1Lxq2xau7Ot6ZMnakrhJg9H-l5);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -63,7 +62,7 @@
 }
 
 .project2 {
-  background-image: url(./src/assets/Project2.png);
+  background-image: url(https://drive.google.com/uc?export=view&id=1WTbSX6VxXcO4DwoXxNA34hBcGrxALyFf);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

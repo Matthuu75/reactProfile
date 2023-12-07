@@ -7,7 +7,7 @@ export const Footer = () => {
       <footer id="footer">
         <a href="https://github.com/Matthuu75">
           <img
-            src="https://drive.google.com/file/d/15DZQSza3MnbzTYIaQr_PRmVt6HY_-VPc/view?usp=drive_link"
+            src="https://drive.google.com/uc?export=view&id=15DZQSza3MnbzTYIaQr_PRmVt6HY_-VPc"
             className="githubLogo"
             alt=""
           />

@@ -6,9 +6,13 @@ export const About = () => {
     <div className="container">
       <header>
         <h1>Marcus Matthews</h1>
-              <div>
-                  <img src="./src/assets/Headshot.jpg" className= "headshot" alt="Headshot" />
-              </div>
+        <div>
+          <img
+            src="https://drive.google.com/uc?export=view&id=1IX__LjzVZ3b3aaZtUbV5nIU4B1Bo0pd1"
+            className="headshot"
+            alt="Headshot"
+          />
+        </div>
         <h2>Web Developer</h2>
       </header>
 
@@ -25,8 +29,8 @@ export const About = () => {
         </p>
         <p>
           Outside of coding, I enjoy exploring new technologies, spending time
-          with my family and my two dogs, and staying up-to-date with the latest industry
-          trends.
+          with my family and my two dogs, and staying up-to-date with the latest
+          industry trends.
         </p>
       </div>
     </div>

@@ -7,12 +7,12 @@ export const Home = () => {
       <div>
         <img
           className="headerPic2"
-          src="./src/assets/IMG_3963.jpeg"
+          src="https://drive.google.com/uc?export=view&id=1ilKCSsyrchGN7QUJ3TR7rEj9EY_cS0uz"
           alt="Header Image"
         />
         <img
           className="headerPic"
-          src="./src/assets/IMG_3963.jpeg"
+          src="https://drive.google.com/uc?export=view&id=1ilKCSsyrchGN7QUJ3TR7rEj9EY_cS0uz"
           alt="Header Image"
         />
       </div>
