@@ -5,7 +5,7 @@ const resumeData = [
     "",
     "Skills:",
     "- Proficient in MERN (MongoDB, Express.js, React, Node.js) stack development",
-    "- Front-end: HTML5, CSS3, JavaScript (ES6+), React, Redux",
+    "- Front-end: HTML, CSS, JavaScript (ES6+), React",
     "- Back-end: Node.js, Express.js, MongoDB",
     "- RESTful API design and implementation",
     "- Responsive web design with Bootstrap and CSS frameworks",
