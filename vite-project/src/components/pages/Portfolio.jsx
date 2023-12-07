@@ -4,7 +4,7 @@ import "./Portfolio.css";
 export const Portfolio = () => {
   return (
     <div>
-      <h2 id="work">My Work</h2>
+      <h2 className="work">My Work</h2>
       <div className="mywork">
         <a
           className="horiseon"
